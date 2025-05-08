@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- ImageView for your voting image -->
+    <TextView
+        android:id="@+id/thank_you_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="45dp"
+        android:text="Thanks for Voting!!"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/vote_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vote_image" />
+
+    <!-- TextView for displaying a thank you message -->
+
+    <!-- TextView for displaying the quote -->
+    <!--<TextView
+        android:id="@+id/quote_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textColor="#555"
+    android:layout_marginTop="8dp" />-->
+</LinearLayout>

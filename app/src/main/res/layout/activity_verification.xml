@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="783dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            app:srcCompat="@drawable/emblem" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            app:srcCompat="@drawable/election" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="374dp"
+            android:layout_height="55dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Confirm  Your Identity"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="334dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="330dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Full Name"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Phone Number"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Aadhar No"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Password"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="194dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded"
+                    android:ems="10"
+                    android:hint=" As per Aadhar"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+
+
+                <EditText
+                    android:id="@+id/editTextText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+
+
+
+                <EditText
+                    android:id="@+id/editTextText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/rounded"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="389dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="152dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="120sp"
+                android:text="Verify"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
