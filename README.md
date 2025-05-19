@@ -1,116 +1,117 @@
-SmartBallot
-SmartBallot is an innovative electronic voting system designed to ensure secure, transparent, and efficient elections. Leveraging modern technologies, it aims to streamline the voting process while maintaining the integrity and confidentiality of each vote.
+# 🗳️ SmartBallot
 
-Table of Contents
-Features
+## 1. Project Title
 
-Installation
+**SmartBallot** – A secure mobile-based voting system for student bodies and small organizations.
 
-Usage
+---
 
-Project Structure
+## 2. Project Description
 
-Contributing
+**SmartBallot** is an Android application built using Java and Firebase that aims to digitize and simplify the traditional voting process. Designed for use in student elections, club polls, and community decisions, it provides a seamless experience for both voters and administrators. It ensures **one-person-one-vote**, real-time result tracking, and a user-friendly mobile interface.
 
-License
+**Key Features:**
+- Firebase-based Authentication (Sign Up/Login)
+- Realtime voting with database sync
+- Secure, single-vote enforcement
+- Admin election and candidate setup
+- Live results dashboard
 
-Features
-Secure Authentication: Ensures that only authorized users can access the voting system.
+---
 
-Real-time Vote Counting: Votes are counted in real-time, providing immediate results.
+## 3. Installation Instructions
 
-User-friendly Interface: Intuitive design for easy navigation and voting.
+Follow these steps to set up and run the SmartBallot app on your local machine:
 
-Audit Trails: Maintains logs for transparency and verification purposes.
+### Prerequisites
+- Android Studio
+- Firebase Account
+- Android Emulator or Physical Device (with USB debugging)
 
-Installation
-Clone the repository:
-
-bash
-Copy
-Edit
+### Setup
 git clone https://github.com/codingbot221/smartballot.git
 cd smartballot
-Install dependencies:
+## 1. Open Project in Android Studio
 
-bash
-Copy
-Edit
-# Using npm
-npm install
+File > Open > Select the cloned project folder
 
-# Or using yarn
-yarn install
-Configure the environment:
+## 2.Firebase Setup
 
-Create a .env file in the root directory and add necessary environment variables.
+- to Firebase Console, create a new project
 
-Run the application:
+- Enable Email/Password Authentication
 
-bash
-Copy
-Edit
-# Using npm
-npm start
+- Set up Realtime Database, use rules like:
 
-# Or using yarn
-yarn start
-Usage
-Access the Application: Navigate to http://localhost:3000 in your web browser.
+  json
+ {
+    "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+- Download google-services.json from Firebase > Project Settings
 
-Register/Login: Create an account or log in using your credentials.
+- Place it in the /app/ directory of the project
 
-Cast Vote: Select your preferred candidates and submit your vote.
+## 3.Build the App
 
-View Results: Access real-time voting results and statistics.
-GitHub
-+1
-GitHub
-+1
-GitHub
-+1
-GitHub
-+1
+- Let Gradle sync automatically
 
-Project Structure
-bash
-Copy
-Edit
-smartballot/
-├── src/
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # Application pages (Home, Login, Vote, Results)
-│   ├── services/          # API calls and business logic
-│   ├── assets/            # Images, stylesheets, and other assets
-│   └── App.js             # Main application file
-├── .env                   # Environment variables
-├── package.json           # Project metadata and dependencies
-└── README.md              # Project documentation
-Contributing
-Contributions are welcome! Please follow these steps:
+- Connect an emulator or physical device
 
-Fork the repository.
+- Click Run ▶️ or press Shift + F10
 
-Create a new branch:
+## 4. Usage Examples
+### 👤 User Flow
+Launch the app
 
-bash
-Copy
-Edit
-git checkout -b feature/YourFeature
-Commit your changes:
+- Sign up with a valid email and password
 
-bash
-Copy
-Edit
-git commit -m "Add YourFeature"
-Push to the branch:
+- Log in using the same credentials
 
-bash
-Copy
-Edit
-git push origin feature/YourFeature
-Open a pull request.
+- View available elections and cast your vote
 
-License
+- Check real-time election results
+
+### 🛠 Admin Flow
+- Sign in using admin credentials (you can define admin role in Firebase)
+
+- Create elections and add candidate details
+
+- Monitor votes and control access
+
+### 🎥 Demo
+You can watch a demo video (upload your .mov to the repo and replace this link)
+
+### 5. Contribution Guidelines
+We welcome contributions to make SmartBallot better! To contribute:
+
+- 1.Fork the repository
+
+- 2.Create a new branch (git checkout -b feature-name)
+
+- 3.Commit your changes (git commit -m 'Add new feature')
+
+- 4.Push to your forked repo (git push origin feature-name)
+
+- 5.Open a Pull Request
+
+### Coding Standards
+- Use meaningful variable/method names
+
+- Stick to Java conventions
+
+- Document public methods/classes using Javadoc
+
+### Testing
+Test your features on both emulator and physical device
+
+Make sure Firebase integration is functional before submitting
+
+## 6. License Information
 This project is licensed under the MIT License.
+Feel free to use, modify, and distribute it with attribution.
 
+### Author: Garikapati Aishwarya
+### GitHub: @codingbot221
