@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/b8a63c1f-cd77-4824-9181-79ffdf98a60b
-
 # 🗳️ SmartBallot
 
 ## 1. Project Title
@@ -115,11 +111,10 @@ Make sure Firebase integration is functional before submitting
 
 ## 6. License Information
 This project is licensed under the MIT License.
-Feel free to use, modify, and dis
-
-https://github.com/user-attachments/assets/41cffa55-4ee3-42fa-9e18-e1ee5d39c406
-
-tribute it with attribution.
+Feel free to use, modify, and distribute it with attribution.
 
 ### Author: Garikapati Aishwarya
 ### GitHub: @codingbot221
+
+https://github.com/user-attachments/assets/b8a63c1f-cd77-4824-9181-79ffdf98a60b
+
