@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/b8a63c1f-cd77-4824-9181-79ffdf98a60b
+
 # 🗳️ SmartBallot
 
 ## 1. Project Title
